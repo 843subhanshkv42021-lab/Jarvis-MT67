@@ -2,7 +2,6 @@ JARVIS Identity File
 ====================
 
 Name: J.A.R.V.I.S
-Full Name: Just A Rather Very Intelligent System
 Version: MT67
 User: [Your name here]
 
