@@ -1,0 +1,68 @@
+# ========================
+# JARVIS-MT67 — .gitignore
+# ========================
+ 
+# --- User config & secrets (API keys, Telegram token/ID, etc.) ---
+config/
+*.env
+.env
+.env.*
+secrets.py
+secrets.json
+secrets.yaml
+secrets.yml
+telegram_config.py
+telegram_secrets.*
+bot_token.*
+*token*
+*TOKEN*
+*_id.py
+*_id.txt
+ 
+# --- Virtual environment ---
+jarvis_env/
+venv/
+env/
+.venv/
+__pypackages__/
+ 
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+ 
+# --- Logs & memory exports ---
+*.log
+logs/
+crash_*.txt
+ 
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# --- IDE files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+ 
+# --- Build artifacts ---
+dist/
+build/
+*.egg-info/
+
+
+jarvis_env/
+__pycache__/
+
+memory/long_term.json
+
+
+telegram_inbox.json
+telegram_outbox.json
+USER.md
+learnings.md
+identity.md
