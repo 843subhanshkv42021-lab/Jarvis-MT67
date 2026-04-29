@@ -117,11 +117,8 @@ JARVIS uses a set of markdown files to build its understanding of you and mainta
 
 ### Step 1 — Rename the templates
 
-Template files are included in the repo. Rename them to remove the `_template` suffix:
-User_template.md      →  USER.md
-identity_template.md  →  identity.txt
-Learnings_template.md →  learnings.md
-Heartbeat_template.md →  heartbeat.md
+Template folder is included in the repo. Rename it by removing the `_template` suffix:
+config.template     →  config
 
 ### Step 2 — Fill in USER.md
 
